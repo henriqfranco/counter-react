@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(38, 27, 87);
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.counter h1{
+    font-size: 64px;
+}
+
+.counter button{
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.counter button:nth-child(2){
+    background-color: red;
+    transition: 0.3s;
+}
+
+.counter button:nth-child(2):hover{
+    background-color: rgb(255, 58, 58);
+}
+
+.counter button:nth-child(3){
+    background-color: rgb(178, 178, 178);
+    margin-inline: 20px;
+    transition: 0.3s;
+}
+
+.counter button:nth-child(3):hover{
+    background-color: rgb(121, 121, 121);
+}
+
+.counter button:nth-child(4){
+    background-color: green;
+    transition: 0.3s;
+}
+
+.counter button:nth-child(4):hover{
+    background-color: rgb(0, 179, 0);
+}
